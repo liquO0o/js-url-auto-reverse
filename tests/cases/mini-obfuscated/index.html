@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+  <body>
+    <script>
+      var _0xabc=['/api/obf','POST'];
+      function x(d){
+        var t=Date.now().toString();
+        var s=btoa(JSON.stringify(d)+t);
+        return fetch(_0xabc[0],{method:_0xabc[1],body:JSON.stringify({d:d,sign:s})});
+      }
+      x({id:1});
+    </script>
+  </body>
+</html>

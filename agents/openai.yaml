@@ -1,0 +1,4 @@
+interface:
+  display_name: "JS URL Auto Reverse"
+  short_description: "给定网址后自动拉取JS并执行定位、审计、WASM与动态补证据流程"
+  default_prompt: "我给你一个网址，请自动抓取JS并定位加密方法、密钥来源和关键调用链"
